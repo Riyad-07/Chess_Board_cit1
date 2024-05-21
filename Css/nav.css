@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+
+
+
+
+/* ............................................................................................. */
+nav{
+    background-color: rgb(141, 234, 250);
+}
+nav .container{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+nav .container .logo{
+    width: 200px;
+}
+
+nav .container .logo a img{
+    height: 90px;
+    margin: 0 auto;
+}
+
+nav .container .menu{
+    width: 800px;
+
+}
+
+nav .container .menu ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    column-gap: 60px;
+
+}
+
+nav .container .menu ul li a {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+nav .container .menu ul li a .one{
+    background-color: rgb(255, 63, 207);
+    height: 3px;
+    width: 0;
+    transition: .3s;
+    
+}
+
+nav .container .menu ul li a:hover .one{
+    width: 100%;
+    background-color: black;
+}
+
+
+h1{
+    text-align: center;
+    color: orangered;
+}
+
+.chess{
+    width: 560px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    border: 3px solid black;
+    margin: 0 auto;
+}
+
+.chess .a, .b{
+    height: 70px;
+    width: 70px;
+}
+
+.chess .a:nth-child(odd){
+    background-color: peru;
+}
+
+.chess .b:nth-child(even){
+    background-color: peru;
+}

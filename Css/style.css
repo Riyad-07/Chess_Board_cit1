@@ -1,0 +1,28 @@
+.main{
+    width: 800px;
+    border: 4px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+}
+
+.a{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+.b{
+    height: 100px;
+    width: 100px;
+}
+
+.a:nth-child(odd){
+    background-color: white;
+}
+.b:nth-child(odd){
+    background-color: black;
+}
+
+
+
